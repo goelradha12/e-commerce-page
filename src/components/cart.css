@@ -1,0 +1,50 @@
+.cart-popup {
+    position: absolute;
+        background-color: white;
+        padding: 1rem;
+        right: 0;
+        margin: 1rem;
+        min-width: 20rem;
+        min-height: 10rem;
+        border-radius: 10px;
+        /* border: 1px gray groove; */
+        box-shadow: 4px 4px 04px 01px rgba(0, 0, 0, 0.363);
+}
+
+.cart-popup .popup--image {
+    width: 40px;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.cart-popup h1 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.cart-popup h2 {
+    color: hsl(219, 9%, 45%);
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.cart-popup .flex--cart {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.cart-popup .payable-amount {
+    margin-left: 1rem;
+    color: hsl(26, 100%, 55%);
+}
+
+.cart-popup .delete-cart-item:hover {
+    cursor: pointer;
+    background-color:hsl(26, 100%, 55%);
+}
+
+
+
+

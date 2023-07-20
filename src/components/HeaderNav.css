@@ -1,0 +1,94 @@
+.active {
+  display: none;
+}
+
+
+
+header.main-header {
+    justify-content: space-between;
+    padding: 1rem 10px;
+    max-width: 1100px;
+    margin: 0px auto 2rem;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .main-header img {
+    max-width: 30px;
+    padding-inline: 10px;
+    cursor: pointer;
+  }
+  
+  .main-header .header--website-name,
+  h2,
+  .product-price--rate {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.1em;
+    max-width: 20ch;
+  }
+  
+  .header--website-name {
+    margin-inline: 0.5rem;
+    /* border: 1px solid black; */
+  }
+
+  .nav > * {
+    cursor: pointer;
+  }
+  
+  .nav li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 1rem 2px;
+    margin-inline: 6px;
+    line-height: 1.1em;
+    border-block: 2px solid hsla(26, 100%, 55%, 0);
+  }
+  
+  .nav > li a:hover,
+  .nav > li a:active {
+    opacity: 0.8;
+    border-bottom: 2px solid hsla(26, 100%, 55%, 0.699);
+  }
+
+  .header--side {
+    position: relative;
+    /* height: 20px; */
+  }
+  
+  /* .nav {
+    background-color: aquamarine;
+  } */
+
+  /* .main-menu {
+    border: 1px solid black; 
+    display: flex;
+    align-items: start;
+    width: 60vw;
+    justify-content: space-between;
+  } */
+
+  @media (min-width: 600px) {
+    header.main-header {
+      border-bottom: 1px groove rgba(0, 0, 0, 0.171);
+    }
+
+    .main-menu {
+      display: flex;
+      align-items: center;
+      position: relative;
+      flex-direction: row-reverse;
+
+    }
+    .main-menu .toggleImages {
+      display: none;
+    }
+    
+    .nav {
+      display: flex;
+      margin-left: clamp(2px,1vw ,1rem);
+      gap: 2px;
+    }
+  }
